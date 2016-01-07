@@ -1,0 +1,67 @@
+/* style the background of the whole page to be gray */
+body {
+	/* rgb is like a function to create a color based on 
+	   the amount of red, green, and blue (acceptable values 0-255) */
+	font-family: Arial;
+	background-color: #B0E2FF;
+}
+
+p{
+	margin-bottom: 1px;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+/* set all the paragraphs' font to be courier and white text */ 
+h5 {
+	/* white- ff is 255 in hex, one set of two hex digits for each red, green, blue*/
+	color: rgb(112,112,112);
+}
+
+h4{
+	font-weight: bold;
+	text-decoration: underline; 
+}
+
+
+
+/* find the paragraph with the id 'bears' and apply these styles */
+#education {
+	margin-bottom: 15px;
+}
+
+#teaching {
+	margin-bottom: 8px;
+}
+
+
+#date {
+	font-weight: bold;
+}
+
+/* find the paragraph with the id 'pack' and apply these styles */
+#pack {
+	background-color:yellow; 
+	color:green; 
+	border-style: solid;
+	border-width: 3px;
+	border-color: green;
+}
+
+/* add some styles in addition to the boostrap styles */
+ .container-fluid {
+	 border-style: solid;
+ }
+ 
+  .container {
+	 border-style: solid;
+ }
+
+/* find all paragraphs with the class equal to 'winners' and change the font
+   to uppercase (this has a higher precendence than the p rule)*/
+.winners {
+	text-transform: uppercase;	
+	font-weight: bold;
+}
